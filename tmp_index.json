@@ -1,0 +1,81 @@
+{
+  "settings": {
+    "index": {
+      "number_of_shards": 1,  
+      "number_of_replicas": 1 
+    }
+  },
+  "mappings": {
+    "properties": { 
+      "Ticker": {
+          "type": "keyword"
+        },
+      "Date": {
+        "type": "date"
+      },
+      "Year": {
+        "type": "integer"
+      },
+      "Month": {
+        "type": "integer"
+      },
+      "Day": {
+        "type": "integer"
+      },
+      "Return Open[0]/Close[-1]": {
+        "type": "float"
+      },
+      "Return Close[0]/Open[0]": {
+        "type": "float"
+      },
+      "Dollar Volume": {
+        "type": "double"
+      },
+      "Close": {
+        "type": "float"
+      },
+      "Open": {
+        "type": "float"
+      },
+      "High": {
+        "type": "float"
+      },      
+      "Low": {
+        "type": "float"
+      },
+      "Range": {
+        "type": "float"
+      },
+      "High Swing": {
+        "type": "float"
+      },
+      "Low Swing": {
+        "type": "float"
+      },
+      "Adj Close": {
+        "type": "float"
+      },
+      "Volume": {
+        "type": "float"
+      },      
+      "Return Close": {
+        "type": "float"
+      },
+      "Return Open": {
+        "type": "float"
+      },
+      "Return High": {
+        "type": "float"
+      },      
+      "Return Low": {
+        "type": "float"
+      },
+      "Return Adj Close": {
+        "type": "float"
+      },
+      "Return Volume": {
+        "type": "float"
+      }
+    }
+  }
+}
